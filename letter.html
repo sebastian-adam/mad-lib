@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Letter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the forms below to recieve a letter!</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="sender">Sender name</label>
+            <input id="sender" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="recipient">Recipient name</label>
+            <input id="recipient" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="recipient-street">Street</label>
+            <input id="recipient-street" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="recipient-city">City</label>
+            <input id="recipient-city" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="recipient-state">State</label>
+            <input id="recipient-state" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="recipient-zip">Zip</label>
+            <input id="recipient-zip" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Show me the story!</button>
+        </form>
+      </div>
+      <div id="letter">
+        <p class="sender-info">
+            <span class="sender"></span><br>
+            <span class="date"></span>
+        </p>
+        <p>
+          <span class="recipient"></span><br>
+          <span class="recipient-street"></span><br>
+          <span class="recipient-city"></span>,
+          <span class="recipient-state"></span>
+          <span class="recipient-zip"></span>
+        </p>
+        <p>Dear <span class="recipient"></span>,</p>
+        <p>What a pleasure to write to you. It's been so long. I hope we can meet in person again soon.</p>
+        <p>Until then,<br>
+        <span class="sender"></span></p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+#story {
+  display: none;
+}
+
+#letter {
+    display: none;
+  }
+.sender-info{
+  text-align: right;
+}
